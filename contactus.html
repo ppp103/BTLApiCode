@@ -27,6 +27,8 @@
 	<link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
 		  rel="stylesheet" />
 	<script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+	<script type="module" src="assets/User/js/customElement.js"></script>
+
 </head>
 <body>
 	<!--[if lt IE 8]>
@@ -39,7 +41,7 @@
 		<!--************************************
 				Header Start
 		*************************************-->
-		<header id="tg-header" class="tg-header tg-haslayout">
+		<!-- <header id="tg-header" class="tg-header tg-haslayout">
 			<div class="tg-topbar">
 				<div class="container">
 					<div class="row">
@@ -207,10 +209,11 @@
 					</div>
 				</div>
 			</div>
-		</header>
+		</header> -->
 		<!--************************************
 				Header End
 		*************************************-->
+		<my-header></my-header>
 		<style>
 			body {
 				margin: 0;
@@ -447,7 +450,7 @@
 		<!--************************************
 				Footer Start
 		*************************************-->
-		<footer id="tg-footer" class="tg-footer tg-haslayout">
+		<!-- <footer id="tg-footer" class="tg-footer tg-haslayout">
 			<div class="tg-footerarea">
 				<div class="container">
 					<div class="row">
@@ -611,8 +614,8 @@
 					</div>
 				</div>
 			</div>
-		</footer>
-		
+		</footer> -->
+		<my-footer></my-footer>
 		<!--************************************
 				Footer End
 		*************************************-->
